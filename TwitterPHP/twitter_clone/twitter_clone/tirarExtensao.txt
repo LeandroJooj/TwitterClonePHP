@@ -1,6 +1,0 @@
-
-select u.*, us.* 
-from usuarios as u
-LEFT JOIN usuarios_seguidores as us 
-on(us.id_usuario = 1 and u.id = us.seguindo_id_usuario) 
-where u.usuario like '%c%' and u.id <> 1
