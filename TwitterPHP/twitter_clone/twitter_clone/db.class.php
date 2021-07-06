@@ -8,7 +8,7 @@ class db
 	//usuário		<------- usuário de conxão com mysql
 	private $usuario  =  'root';
 	//senha 
-	private $senha = '84404714';
+	private $senha = 'root';
 	//banco de dados 
 	private $dataBase = 'twitter_clone';
 
